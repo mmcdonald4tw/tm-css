@@ -1,0 +1,159 @@
+{
+    "version": "1.0",
+    "assets": [
+        {
+            "id": "a1",
+            "name": "Human Life",
+            "description": "null"
+        },
+        {
+            "id": "a2",
+            "name": "Resource - Electricity",
+            "description": "null."
+        },
+        {
+            "id": "a3",
+            "name": "Resource - Food",
+            "description": "null"
+        },
+        {
+            "id": "a4",
+            "name": "Resource - Medical Supplies",
+            "description": "null"
+        },
+        {
+            "id": "a5",
+            "name": "Resource - Water",
+            "description": "null"
+        },
+        {
+            "id": "a6",
+            "name": "Resource - Shelter",
+            "description": "null"
+        },
+        {
+            "id": "a7",
+            "name": "Resource - Fuel",
+            "description": "null"
+        },
+        {
+            "id": "a8",
+            "name": "Communications",
+            "description": "null"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "n1",
+            "name": "School",
+            "description": "null"
+        },
+        {
+            "id": "n2",
+            "name": "Low Density Residential",
+            "description": "null"
+        },
+        {
+            "id": "n3",
+            "name": "High Density Residential",
+            "description": "null"
+        },
+        {
+            "id": "n4",
+            "name": "Police Station",
+            "description": "null"
+        },
+        {
+            "id": "n5",
+            "name": "Fire Rescue Station",
+            "description": "null"
+        },
+        {
+            "id": "n6",
+            "name": "Aiport",
+            "description": "null"
+        },
+        {
+            "id": "n7",
+            "name": "Food Store",
+            "description": "null"
+        },
+        {
+            "id": "n8",
+            "name": "Fuel Station",
+            "description": "null"
+        },
+        {
+            "id": "n9",
+            "name": "Hospital",
+            "description": "null"
+        },
+        {
+            "id": "n10",
+            "name": "Military Base",
+            "description": "null"
+        },
+        {
+            "id": "n11",
+            "name": "Power Station",
+            "description": "null"
+        },
+        {
+            "id": "n12",
+            "name": "Water Supply",
+            "description": "null"
+        },
+        {
+            "id": "n1",
+            "name": "High Density Gathering",
+            "description": "null"
+        }
+    ],
+    "actors": [
+        {
+            "id": "ac1",
+            "name": "Domestic Terrorism",
+            "description": "null",
+            "type": "threat"
+        },
+        {
+            "id": "ac1",
+            "name": "Unorganized Malicious Actor",
+            "description": "null",
+            "type": "threat"
+        },
+        {
+            "id": "ac2",
+            "name": "Civialian",
+            "description": "null",
+            "type": "non-threat"
+        }
+    ],
+    "Controls": [
+        {
+            "id": "c1",
+            "name": "Secure Physical Barriers",
+            "description": "null"
+        },
+        {
+            "id": "c2",
+            "name": "Active Video Monitoring",
+            "description": "null"
+        },
+        {
+            "id": "c3",
+            "name": "Law Enforcement Presence",
+            "description": "null"
+        },
+        {
+            "id": "c4",
+            "name": "Active Resource Monitoring",
+            "description": "null"
+        },
+        {
+            "id": "c5",
+            "name": "Evacuation Plans",
+            "description": "null"
+        }
+    ]
+}
