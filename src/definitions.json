@@ -4,128 +4,139 @@
         {
             "id": "a1",
             "name": "Human Life",
-            "description": "null"
+            "description": "The asset definition for human life is a critical component of the system, representing the most valuable asset in any emergency management scenario. It encompasses the safety and well-being of individuals, ensuring that all actions taken prioritize the preservation of human life above all else."
         },
         {
             "id": "a2",
             "name": "Resource - Electricity",
-            "description": "null."
+            "description": "The asset definition for electricity is vital in emergency management, as it powers essential services and infrastructure. Ensuring a reliable electricity supply is crucial for the functioning of communication systems, medical facilities, and other critical operations during emergencies."
         },
         {
             "id": "a3",
             "name": "Resource - Food",
-            "description": "null"
+            "description": "The asset definition for food is essential in emergency management, as it addresses the basic nutritional needs of individuals and communities affected by crises. Ensuring access to safe and sufficient food supplies is crucial for maintaining health and well-being during emergencies."
         },
         {
             "id": "a4",
             "name": "Resource - Medical Supplies",
-            "description": "null"
+            "description": "The asset definition for medical supplies is critical in emergency management, as it ensures that healthcare providers have the necessary tools and materials to deliver care during crises. This includes everything from bandages and antiseptics to life-saving medications and equipment."
         },
         {
             "id": "a5",
             "name": "Resource - Water",
-            "description": "null"
+            "description": "The asset definition for water is essential in emergency management, as it addresses the basic hydration needs of individuals and communities affected by crises. Ensuring access to safe and sufficient water supplies is crucial for maintaining health and well-being during emergencies."
         },
         {
             "id": "a6",
             "name": "Resource - Shelter",
-            "description": "null"
+            "description": "The asset definition for shelter is critical in emergency management, as it provides protection and safety for individuals and families displaced by disasters. Ensuring access to safe and secure shelter is essential for maintaining dignity and well-being during crises."
         },
         {
             "id": "a7",
             "name": "Resource - Fuel",
-            "description": "null"
+            "description": "The asset definition for fuel is important in emergency management, as it powers vehicles, generators, and other equipment necessary for response and recovery efforts. Ensuring a reliable fuel supply is crucial for maintaining operational capabilities during crises."
         },
         {
             "id": "a8",
             "name": "Communications",
-            "description": "null"
+            "description": "The asset definition for communications is vital in emergency management, as it enables the flow of information between responders, affected individuals, and the public. Ensuring reliable communication systems are in place is crucial for effective coordination and response during crises."
         }
     ],
     "nodes": [
         {
             "id": "n1",
             "name": "School",
-            "description": "null"
+            "description": "This node representation in a model serves as a general educational facility."
         },
         {
             "id": "n2",
             "name": "Low Density Residential",
-            "description": "null"
+            "description": "This node representation in a model serves as a residential area with low population density, typically consisting of single-family homes and open spaces."
         },
         {
             "id": "n3",
             "name": "High Density Residential",
-            "description": "null"
+            "description": "This node representation in a model serves as a residential area with high population density, typically consisting of multi-family housing units and limited open spaces."
         },
         {
             "id": "n4",
             "name": "Police Station",
-            "description": "null"
+            "description": "This node representation in a model serves as a law enforcement facility. It is responsible for maintaining public safety, enforcing laws, and providing community services."
         },
         {
             "id": "n5",
             "name": "Fire Rescue Station",
-            "description": "null"
+            "description": "This node representation in a model serves as a fire rescue facility. It is responsible for responding to fire emergencies, conducting search and rescue operations, and providing emergency medical services."
         },
         {
             "id": "n6",
-            "name": "Aiport",
-            "description": "null"
+            "name": "Airport",
+            "description": "This node representation in a model serves as an airport facility. It is responsible for managing air traffic, passenger services, and cargo operations."
         },
         {
             "id": "n7",
             "name": "Food Store",
-            "description": "null"
+            "description": "This node representation in a model serves as a retail facility that provides food and grocery items to the community."
         },
         {
             "id": "n8",
             "name": "Fuel Station",
-            "description": "null"
+            "description": "This node representation in a model serves as a fuel station facility. It is responsible for providing fuel services for vehicles and equipment."
         },
         {
             "id": "n9",
             "name": "Hospital",
-            "description": "null"
+            "description": "This node representation in a model serves as a healthcare facility. It is responsible for providing medical services, emergency care, and patient treatment."
         },
         {
             "id": "n10",
             "name": "Military Base",
-            "description": "null"
+            "description": "This node representation in a model serves as a military facility. It is responsible for national defense, training, and support operations."
         },
         {
             "id": "n11",
             "name": "Power Station",
-            "description": "null"
+            "description": "This node representation in a model serves as a power generation facility. It is responsible for producing and distributing electrical power to the community."
         },
         {
             "id": "n12",
             "name": "Water Supply",
-            "description": "null"
+            "description": "This node representation in a model serves as a water supply facility. It is responsible for providing and distributing potable water to the community."
         },
         {
-            "id": "n1",
+            "id": "n13",
             "name": "High Density Gathering",
-            "description": "null"
+            "description": "This node representation in a model serves as a high-density gathering area, typically consisting of large crowds and limited space."
+        },
+        {
+            "id": "n14",
+            "name": "Farm",
+            "description": "This node representation in a model serves as a farm facility. It is responsible for agricultural production, including crops and livestock."
         }
     ],
     "actors": [
         {
             "id": "ac1",
             "name": "Domestic Terrorism",
-            "description": "null",
-            "type": "threat"
-        },
-        {
-            "id": "ac1",
-            "name": "Unorganized Malicious Actor",
-            "description": "null",
+            "description": "This actor representation in a model includes individuals or groups engaged in domestic terrorism activities.",
             "type": "threat"
         },
         {
             "id": "ac2",
-            "name": "Civialian",
-            "description": "null",
+            "name": "Unorganized Malicious Actor",
+            "description": "This actor representation in a model includes individuals or groups engaged in unorganized malicious activities.",
+            "type": "threat"
+        },
+        {
+            "id": "ac3",
+            "name": "Nation-State Malicious Actor",
+            "description": "This actor representation in a model includes individuals or groups engaged in state-sponsored malicious activities.",
+            "type": "threat"
+        },
+        {
+            "id": "ac4",
+            "name": "Civilian",
+            "description": "This actor representation in a model includes individuals or groups not engaged in any criminal or malicious activities.",
             "type": "non-threat"
         }
     ],
@@ -133,27 +144,73 @@
         {
             "id": "c1",
             "name": "Secure Physical Barriers",
-            "description": "null"
+            "description": "This control representation in a model includes physical barriers designed to prevent unauthorized access to critical areas."
         },
         {
             "id": "c2",
             "name": "Active Video Monitoring",
-            "description": "null"
+            "description": "This control representation in a model includes the use of video cameras and surveillance systems to monitor activities in real-time."
         },
         {
             "id": "c3",
             "name": "Law Enforcement Presence",
-            "description": "null"
+            "description": "This control representation in a model includes the deployment of law enforcement personnel to deter and respond to criminal activities."
         },
         {
             "id": "c4",
             "name": "Active Resource Monitoring",
-            "description": "null"
+            "description": "This control representation in a model includes the continuous monitoring of resources and assets to detect and respond to potential threats."
         },
         {
             "id": "c5",
             "name": "Evacuation Plans",
-            "description": "null"
+            "description": "This control representation in a model includes the development and implementation of evacuation plans to ensure the safe and efficient removal of individuals from a threatened area."
+        }
+    ],
+    "Threats": [
+        {
+            "id": "t1",
+            "title": "A domestic terrorist group performs an attack on a power station with the goal of disrupting electrical supply",
+            "description": "This threat describes a scenario where a domestic terrorist group targets a power station to cause widespread disruption.",
+            "controls": "c1, c2, c4, c5",
+            "actors": "ac1",
+            "nodes": "n11",
+            "assets": "a1, a2",
+            "Likelihood": "Low",
+            "Impact": "Moderate"
+        },
+        {
+            "id": "t2",
+            "title": "A malicious actor performs a premeditated attack on a high-density gathering area causing a mass casualty event.",
+            "description": "This threat describes a scenario where a malicious actor plans and executes an attack in a crowded area, leading to significant casualties.",
+            "controls": "c3, c5",
+            "actors": "ac2",
+            "nodes": "n13",
+            "assets": "a1",
+            "Likelihood": "Moderate",
+            "Impact": "Critical"
+        },
+        {
+            "id": "t3",
+            "title": "A nation-state actor conducts a cyber attack on critical infrastructure.",
+            "description": "This threat describes a scenario where a nation-state actor targets critical infrastructure systems to disrupt services.",
+            "controls": "c1, c2, c4",
+            "actors": "ac3",
+            "nodes": "n11",
+            "assets": "a2, a5",
+            "Likelihood": "Low",
+            "Impact": "Moderate"
+        },
+        {
+            "id": "t4",
+            "title": "A nation-state actor conducts a biological weapon attack on food production facilities.",
+            "description": "This threat describes a scenario where a nation-state actor uses biological agents to disrupt food production and supply.",
+            "controls": "c1, c4",
+            "actors": "ac3",
+            "nodes": "n14",
+            "assets": "a1, a3",
+            "Likelihood": "Low",
+            "Impact": "Moderate"
         }
     ]
 }
