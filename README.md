@@ -3,3 +3,13 @@ TM-CSS (Threat Modeling - Civil Support Services) is a threat modeling framework
 
 ## Example Model Diagram - Fictland (The fictional town)
 ![Example Model - Fictland](/samples/example-Fictland.jpg)
+
+## Represent Location via Grid/Vector Mapping
+![Example - Grid Map](/samples/example-GridMapping.jpg)
+
+One unique feature of the TM-CSS framework is the approach to represent phyiscal location of "nodes" via a grid or vector map. Standard cybersecurity threat modeling frameworks represent computer system interactions through Data Flow Diagrams (DFD's), however this is not as useful for physical locations.
+
+This approach allows for key representation of:
+* Total distance between nodes.
+* Estimated travel/response time between nodes.
+* Distance and direction of notable nodes (next closest resource).
